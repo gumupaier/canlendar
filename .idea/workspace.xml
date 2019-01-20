@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d8feb9b-c757-4f8e-8758-d633f6374304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/calendar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/auto.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/calendar/db.opt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/ib_logfile0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/ib_logfile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/ibdata1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/columns_priv.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/columns_priv.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/columns_priv.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/db.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/db.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/db.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/event.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/event.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/event.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/func.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/func.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/func.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/general_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/general_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/general_log.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_category.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_category.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_category.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_keyword.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_keyword.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_keyword.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_relation.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_relation.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_relation.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_topic.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_topic.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/help_topic.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/innodb_index_stats.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/innodb_table_stats.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/ndb_binlog_index.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/ndb_binlog_index.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/ndb_binlog_index.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/plugin.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/plugin.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/plugin.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/proc.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/proc.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/proc.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/procs_priv.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/procs_priv.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/procs_priv.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/proxies_priv.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/proxies_priv.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/proxies_priv.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/servers.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/servers.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/servers.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_master_info.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_master_info.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_relay_log_info.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_relay_log_info.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_worker_info.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_worker_info.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slow_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slow_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/slow_log.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/tables_priv.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/tables_priv.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/tables_priv.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_leap_second.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_leap_second.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_leap_second.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_name.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_name.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition_type.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition_type.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/user.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/user.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/mysql/user.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/accounts.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/cond_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/db.opt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_current.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_history.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_history_long.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_by_account_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_by_host_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_by_thread_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_by_user_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_global_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_current.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_history.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_history_long.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_account_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_digest.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_host_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_thread_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_user_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_global_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_current.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_history.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_history_long.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_account_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_host_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_instance.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_thread_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_user_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_global_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/file_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/file_summary_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/file_summary_by_instance.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/host_cache.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/hosts.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/mutex_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/objects_summary_global_by_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/performance_timers.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/rwlock_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/session_account_connect_attrs.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/session_connect_attrs.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_actors.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_consumers.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_instruments.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_objects.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_timers.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/socket_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/socket_summary_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/socket_summary_by_instance.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/table_io_waits_summary_by_index_usage.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/table_io_waits_summary_by_table.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/table_lock_waits_summary_by_table.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/threads.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_db/performance_schema/users.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/object.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/task.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lastupdate.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/access_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/object.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/task.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/task_bak.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/commentsRouter_______GolandProjects_src_calendar_controllers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/commentsRouter_controllers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/init.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/css/app.4689650124d2ed54ce8dbcaa8471ecde.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/css/app.8aa48b184d91e86cf7d789baeb532407.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/css/app.9e7bd4b975205f8a0984aca47758be5d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/css/app.f123147a835755de63508454a185ffc0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/fonts/element-icons.6f0a763.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/image/ava1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/image/ava2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/image/ava3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/image/ava4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/image/ava5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/img/bg-gray.b959201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/img/cat.3dda035.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/img/login.e334716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/js/app.31a11ebab706acab0a77.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/js/app.3854311e301e941a0832.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/js/app.502abd753903712de970.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/js/app.dadb7c021f8ca3dd7f95.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/js/manifest.3ad1d5771e9b13dbdad2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/js/vendor.72f4cfb13ca2a8354281.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/static/js/vendor.e468d4b8ba4ccb6b209e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/swagger.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/default_test.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1123204009">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="5" />
+          <entry key="conf" value="7" />
+          <entry key="css" value="1" />
+          <entry key="go" value="113" />
+          <entry key="html" value="14" />
+          <entry key="js" value="2" />
+          <entry key="json" value="1" />
+          <entry key="md" value="25" />
+          <entry key="sh" value="6" />
+          <entry key="sql" value="4" />
+          <entry key="task" value="45" />
+          <entry key="task_mapping" value="35" />
+          <entry key="task_mapping_setting" value="9" />
+          <entry key="task_setting" value="31" />
+          <entry key="tmp" value="3" />
+          <entry key="user" value="18" />
+          <entry key="yml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="Database Element" value="138" />
+          <entry key="Dockerfile" value="4" />
+          <entry key="Go" value="113" />
+          <entry key="HTML" value="14" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="23" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Scratch" value="4" />
+          <entry key="YAML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Dockerfile" value="57" />
+          <entry key="cell" value="163" />
+          <entry key="conf" value="15" />
+          <entry key="go" value="18650" />
+          <entry key="json" value="34" />
+          <entry key="md" value="917" />
+          <entry key="sh" value="37" />
+          <entry key="sql" value="54" />
+          <entry key="yml" value="119" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dockerfile" value="12" />
+          <entry key="Go" value="18650" />
+          <entry key="JSON" value="34" />
+          <entry key="Markdown" value="904" />
+          <entry key="PLAIN_TEXT" value="110" />
+          <entry key="Scratch" value="217" />
+          <entry key="YAML" value="119" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".append" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/task.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="639" column="18" selection-start-line="639" selection-start-column="9" selection-end-line="639" selection-end-column="18" />
+              <folding>
+                <element signature="e#21#175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/router.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+              <folding>
+                <element signature="e#248#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/access_token.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/db.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/base.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/object.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding>
+                <element signature="e#21#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/user.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3150">
+              <caret line="218" column="28" selection-start-line="218" selection-start-column="28" selection-end-line="218" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/user.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1290">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/task.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2925">
+              <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NewNamespace</find>
+      <find>int</find>
+      <find>get_user_info</find>
+      <find>GetUserInfo</find>
+      <find>All</find>
+      <find>Update</find>
+      <find>Insert</find>
+      <find>AddTask</find>
+      <find>AllowOrigins</find>
+      <find>Access-Control-Allow-Origin</find>
+      <find>Read</find>
+      <find>Dongxu</find>
+      <find>getSelectionEndPosition</find>
+      <find>DataBas</find>
+      <find>delete_or_update</find>
+      <find>Filte</find>
+      <find>QueryTable</find>
+      <find>密码错误</find>
+      <find>BaseResonse</find>
+      <find>beego很</find>
+      <find>Post</find>
+      <find>option</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.11.2/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/routers/commentsRouter_controllers.go" />
+        <option value="$PROJECT_DIR$/script/init.sh" />
+        <option value="$PROJECT_DIR$/models/task_bak.go" />
+        <option value="$PROJECT_DIR$/models/access_token.go" />
+        <option value="$PROJECT_DIR$/models/user.go" />
+        <option value="$PROJECT_DIR$/models/db.go" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
+        <option value="$PROJECT_DIR$/controllers/base.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/controllers/object.go" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/console_1.sql" />
+        <option value="$PROJECT_DIR$/swagger/swagger.json" />
+        <option value="$PROJECT_DIR$/controllers/user.go" />
+        <option value="$PROJECT_DIR$/controllers/task.go" />
+        <option value="$PROJECT_DIR$/models/task.go" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/statics" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/controllers" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19224556" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.20136987" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38219178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26849315" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.25753424" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.13731825" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17447495" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38219178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18630137" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/Cellar/go/1.11.2/libexec/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lastupdate.tmp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/session/session.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/app.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="493" column="5" selection-start-line="493" selection-start-column="5" selection-end-line="493" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/static/css/app.8aa48b184d91e86cf7d789baeb532407.css" />
+    <entry file="file://$PROJECT_DIR$/static/js/app.31a11ebab706acab0a77.js" />
+    <entry file="file://$PROJECT_DIR$/views/index.html" />
+    <entry file="file://$PROJECT_DIR$/controllers/index.html" />
+    <entry file="file://$PROJECT_DIR$/routers/commentsRouter_controllers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/static/js/app.31a11ebab706acab0a77.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/init.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger/swagger.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="828" column="17" lean-forward="true" selection-start-line="828" selection-start-column="17" selection-end-line="828" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/orm/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="249" column="21" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/orm/orm_conds.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/schema/main/table/task_mapping_setting" />
+    <entry file="das://9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/schema/main/table/task">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/schema/main/table/task_mapping">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/schema/main/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/schema/main/table/task_setting">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/object.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.2/libexec/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13650">
+          <caret line="910" column="23" selection-start-line="910" selection-start-column="23" selection-end-line="910" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="8" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/task.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="639" column="18" selection-start-line="639" selection-start-column="9" selection-end-line="639" selection-end-column="18" />
+          <folding>
+            <element signature="e#21#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#248#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/access_token.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/base.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/object.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#21#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="218" column="28" selection-start-line="218" selection-start-column="28" selection-end-line="218" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/task.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

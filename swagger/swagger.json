@@ -1,0 +1,843 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "the_frist_blood",
+        "description": "beego很牛逼",
+        "version": "1.0.0",
+        "termsOfService": "http://beego.me/",
+        "contact": {
+            "email": "henson_wu@foxmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    },
+    "basePath": "/v1",
+    "paths": {
+        "/object/": {
+            "get": {
+                "tags": [
+                    "object"
+                ],
+                "description": "get all objects",
+                "operationId": "ObjectController.GetAll",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Object"
+                        }
+                    },
+                    "403": {
+                        "description": ":objectId is empty"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "object"
+                ],
+                "description": "create object",
+                "operationId": "ObjectController.Create",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "The object content",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/models.Object"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} models.Object.Id"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/object/{objectId}": {
+            "get": {
+                "tags": [
+                    "object"
+                ],
+                "description": "find object by objectid",
+                "operationId": "ObjectController.Get",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "objectId",
+                        "description": "the objectid you want to get",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Object"
+                        }
+                    },
+                    "403": {
+                        "description": ":objectId is empty"
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "object"
+                ],
+                "description": "update the object",
+                "operationId": "ObjectController.Update",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "objectId",
+                        "description": "The objectid you want to update",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "The body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/models.Object"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Object"
+                        }
+                    },
+                    "403": {
+                        "description": ":objectId is empty"
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "object"
+                ],
+                "description": "delete the object",
+                "operationId": "ObjectController.Delete",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "objectId",
+                        "description": "The objectId you want to delete",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} delete success!"
+                    },
+                    "403": {
+                        "description": "objectId is empty"
+                    }
+                }
+            }
+        },
+        "/task/": {
+            "post": {
+                "tags": [
+                    "task"
+                ],
+                "description": "创建任务",
+                "operationId": "TaskController.创建任务",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "body for user content",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/createTask"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Task"
+                        }
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/task/add/": {
+            "post": {
+                "tags": [
+                    "task"
+                ],
+                "description": "添加任务 (end)",
+                "operationId": "TaskController.添加任务",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "The ip for login",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/addTask"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} login success"
+                    },
+                    "403": {
+                        "description": "user not exist"
+                    }
+                }
+            }
+        },
+        "/task/delete/": {
+            "post": {
+                "tags": [
+                    "task"
+                ],
+                "description": "删除任务 (end)",
+                "operationId": "TaskController.删除任务",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "The ip for login",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/deleteTaskStruct"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} login success"
+                    },
+                    "403": {
+                        "description": "user not exist"
+                    }
+                }
+            }
+        },
+        "/task/delete_or_update/": {
+            "post": {
+                "tags": [
+                    "task"
+                ],
+                "description": "完成或者删除单个任务 (end)",
+                "operationId": "TaskController.完成或者删除单个任务",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "The ip for login",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/deleteTaskStruct"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} login success"
+                    },
+                    "403": {
+                        "description": "user not exist"
+                    }
+                }
+            }
+        },
+        "/task/edit/": {
+            "post": {
+                "tags": [
+                    "task"
+                ],
+                "description": "编辑任务 (end)",
+                "operationId": "TaskController.编辑任务",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "The ip for login",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/editTask"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} login success"
+                    },
+                    "403": {
+                        "description": "user not exist"
+                    }
+                }
+            }
+        },
+        "/task/get_all_task_by_Day/": {
+            "get": {
+                "tags": [
+                    "task"
+                ],
+                "description": "获取当月所有任务（end）",
+                "operationId": "TaskController.获取当日所有任务",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "date",
+                        "description": "the task title",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Task"
+                        }
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/task/get_all_task_by_month/": {
+            "get": {
+                "tags": [
+                    "task"
+                ],
+                "description": "获取当月所有任务",
+                "operationId": "TaskController.获取当月所有任务",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "month",
+                        "description": "the task title",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "query",
+                        "name": "year",
+                        "description": "the task title",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Task"
+                        }
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/task/get_query_task/": {
+            "get": {
+                "tags": [
+                    "task"
+                ],
+                "description": "根据条件查询当月所有任务",
+                "operationId": "TaskController.获取查询任务",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "month",
+                        "description": "the task month",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "query",
+                        "name": "year",
+                        "description": "the task year",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "query",
+                        "name": "username",
+                        "description": "the task username",
+                        "type": "string"
+                    },
+                    {
+                        "in": "query",
+                        "name": "query",
+                        "description": "the task query",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Task"
+                        }
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/task/update/": {
+            "put": {
+                "tags": [
+                    "task"
+                ],
+                "description": "更新任务(代表id的单个任务)",
+                "operationId": "TaskController.更新某一任务（单个）",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "the task id",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    {
+                        "in": "query",
+                        "name": "title",
+                        "description": "the task title",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "query",
+                        "name": "detail",
+                        "description": "the task detail",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Task"
+                        }
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/task/{id}": {
+            "get": {
+                "tags": [
+                    "task"
+                ],
+                "description": "获取某一任务信息",
+                "operationId": "TaskController.获取某一任务信息",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "description": "the task id",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Task"
+                        }
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/user/": {
+            "get": {
+                "tags": [
+                    "user"
+                ],
+                "description": "get all Users",
+                "operationId": "UserController.GetAll",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.User"
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "description": "create users",
+                "operationId": "UserController.CreateUser",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "body for user content",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/models.User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{int} models.User.Id"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/user/get_ip": {
+            "get": {
+                "tags": [
+                    "user"
+                ],
+                "description": "获取ip(end)",
+                "operationId": "UserController.获取ip",
+                "responses": {
+                    "200": {
+                        "description": "{string} \"127.0.0.1\""
+                    }
+                }
+            }
+        },
+        "/user/get_user": {
+            "get": {
+                "tags": [
+                    "user"
+                ],
+                "description": "根据姓名获取用户列表(end)",
+                "operationId": "UserController.获取用户列表",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "username",
+                        "description": "the param for user_list",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} \"127.0.0.1\""
+                    }
+                }
+            }
+        },
+        "/user/login": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "description": "登录 (end)",
+                "operationId": "UserController.Login",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "The ip for login",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/models.User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} login success"
+                    },
+                    "403": {
+                        "description": "user not exist"
+                    }
+                }
+            }
+        },
+        "/user/logout": {
+            "get": {
+                "tags": [
+                    "user"
+                ],
+                "description": "Logs out current logged in user session(end)",
+                "operationId": "UserController.退出登录",
+                "responses": {
+                    "200": {
+                        "description": "{string} logout success"
+                    }
+                }
+            }
+        },
+        "/user/{id}": {
+            "put": {
+                "tags": [
+                    "user"
+                ],
+                "description": "update the user",
+                "operationId": "UserController.更新用户信息",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "description": "The uid you want to update",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "body for user content",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/models.User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.User"
+                        }
+                    },
+                    "403": {
+                        "description": ":id is not int"
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "user"
+                ],
+                "description": "delete the user",
+                "operationId": "UserController.删除用户",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "description": "The uid you want to delete",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{string} delete success!"
+                    },
+                    "403": {
+                        "description": "id is empty"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "addTask": {
+            "title": "addTask",
+            "type": "object"
+        },
+        "createTask": {
+            "title": "createTask",
+            "type": "object"
+        },
+        "deleteTaskStruct": {
+            "title": "deleteTaskStruct",
+            "type": "object"
+        },
+        "editTask": {
+            "title": "editTask",
+            "type": "object"
+        },
+        "models.Object": {
+            "title": "Object",
+            "type": "object",
+            "properties": {
+                "ObjectId": {
+                    "type": "string"
+                },
+                "PlayerName": {
+                    "type": "string"
+                },
+                "Score": {
+                    "type": "integer",
+                    "format": "int64"
+                }
+            }
+        },
+        "models.Task": {
+            "title": "Task",
+            "type": "object",
+            "properties": {
+                "create_person": {
+                    "$ref": "#/definitions/models.User"
+                },
+                "create_time": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "detail": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "task_mappings": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/models.TaskMapping"
+                    }
+                },
+                "task_setting": {
+                    "$ref": "#/definitions/models.TaskSetting"
+                },
+                "title": {
+                    "type": "string"
+                }
+            }
+        },
+        "models.TaskMapping": {
+            "title": "TaskMapping",
+            "type": "object",
+            "properties": {
+                "assist_person": {
+                    "$ref": "#/definitions/models.User"
+                },
+                "id": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "task": {
+                    "$ref": "#/definitions/models.Task"
+                },
+                "task_setting": {
+                    "$ref": "#/definitions/models.TaskSetting"
+                }
+            }
+        },
+        "models.TaskSetting": {
+            "title": "TaskSetting",
+            "type": "object",
+            "properties": {
+                "Task": {
+                    "$ref": "#/definitions/models.Task"
+                },
+                "day": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "effective_date": {
+                    "type": "string"
+                },
+                "enabled": {
+                    "type": "boolean"
+                },
+                "id": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "is_delete": {
+                    "type": "boolean"
+                },
+                "is_finsh": {
+                    "type": "boolean"
+                },
+                "month": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "repeat_count": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "repeat_time": {
+                    "type": "string"
+                },
+                "week_day": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "year": {
+                    "type": "integer",
+                    "format": "int64"
+                }
+            }
+        },
+        "models.User": {
+            "title": "User",
+            "type": "object",
+            "properties": {
+                "TaskMappings": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/models.TaskMapping"
+                    }
+                },
+                "Tasks": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/models.Task"
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "ip": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "username": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "object",
+            "description": "Operations about object\n"
+        },
+        {
+            "name": "user",
+            "description": "Operations about Users\n"
+        }
+    ]
+}

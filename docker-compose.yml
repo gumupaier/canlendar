@@ -1,0 +1,55 @@
+version: "2"
+services:
+#  db:
+#    image: mysql:5.6
+#    #    container_name: test-mysql
+#    #    restart: always
+#    #    ports:
+#    #      - "3306:3306"
+#    volumes:
+#    - ./_db:/var/lib/mysql
+#    command: [mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci]
+#    environment:
+#      MYSQL_USER: "root"
+#      MYSQL_PASSWORD: "root"
+#      MYSQL_ROOT_PASSWORD: "root"
+#      MYSQL_DATABASE: calendar
+#    networks:
+#    - app-calendar
+#
+#  db-admin1:
+#    image: phpmyadmin/phpmyadmin:4.6
+#    container_name: db-admin
+#    ports:
+#      - "8082:80"
+#    environment:
+#      MYSQL_USER: "root"
+#      MYSQL_PASSWORD: "root"
+#      MYSQL_ROOT_PASSWORD: "root"
+#      MYSQL_DATABASE: calendar
+#      PMA_HOST: db
+#    networks:
+#      - app-calendar
+  calendar:
+    build: .
+    volumes:
+    - .:/work
+    working_dir: /work
+    #    command:
+    ports:
+      - 8080:8090
+    environment:
+      - DB_HOST=db
+      - DB_NAME=calendar
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DEBUG=True
+    networks:
+      - app-calendar
+
+
+
+
+networks:
+  app-calendar:
+    external: true
