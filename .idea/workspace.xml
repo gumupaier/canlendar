@@ -1,212 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d8feb9b-c757-4f8e-8758-d633f6374304" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/calendar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9cf0e7b0-ec0d-4de2-9de0-3bc7b1079f00/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/auto.cnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/calendar/db.opt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/ib_logfile0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/ib_logfile1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/ibdata1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/columns_priv.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/columns_priv.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/columns_priv.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/db.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/db.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/db.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/event.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/event.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/event.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/func.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/func.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/func.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/general_log.CSM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/general_log.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/general_log.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_category.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_category.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_category.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_keyword.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_keyword.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_keyword.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_relation.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_relation.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_relation.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_topic.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_topic.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/help_topic.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/innodb_index_stats.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/innodb_table_stats.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/ndb_binlog_index.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/ndb_binlog_index.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/ndb_binlog_index.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/plugin.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/plugin.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/plugin.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/proc.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/proc.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/proc.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/procs_priv.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/procs_priv.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/procs_priv.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/proxies_priv.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/proxies_priv.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/proxies_priv.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/servers.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/servers.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/servers.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_master_info.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_master_info.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_relay_log_info.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_relay_log_info.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_worker_info.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slave_worker_info.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slow_log.CSM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slow_log.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/slow_log.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/tables_priv.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/tables_priv.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/tables_priv.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_leap_second.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_leap_second.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_leap_second.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_name.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_name.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition_type.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition_type.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/time_zone_transition_type.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/user.MYD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/user.MYI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/mysql/user.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/accounts.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/cond_instances.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/db.opt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_current.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_history.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_history_long.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_by_account_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_by_host_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_by_thread_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_by_user_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_stages_summary_global_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_current.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_history.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_history_long.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_account_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_digest.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_host_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_thread_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_by_user_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_statements_summary_global_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_current.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_history.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_history_long.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_account_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_host_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_instance.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_thread_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_by_user_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/events_waits_summary_global_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/file_instances.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/file_summary_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/file_summary_by_instance.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/host_cache.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/hosts.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/mutex_instances.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/objects_summary_global_by_type.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/performance_timers.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/rwlock_instances.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/session_account_connect_attrs.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/session_connect_attrs.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_actors.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_consumers.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_instruments.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_objects.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/setup_timers.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/socket_instances.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/socket_summary_by_event_name.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/socket_summary_by_instance.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/table_io_waits_summary_by_index_usage.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/table_io_waits_summary_by_table.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/table_lock_waits_summary_by_table.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/threads.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_db/performance_schema/users.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/object.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/task.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lastupdate.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/access_token.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/object.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/task.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/task_bak.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/commentsRouter_______GolandProjects_src_calendar_controllers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/commentsRouter_controllers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/init.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/css/app.4689650124d2ed54ce8dbcaa8471ecde.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/css/app.8aa48b184d91e86cf7d789baeb532407.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/css/app.9e7bd4b975205f8a0984aca47758be5d.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/css/app.f123147a835755de63508454a185ffc0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/fonts/element-icons.6f0a763.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/image/ava1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/image/ava2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/image/ava3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/image/ava4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/image/ava5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/img/bg-gray.b959201.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/img/cat.3dda035.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/img/login.e334716.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/js/app.31a11ebab706acab0a77.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/js/app.3854311e301e941a0832.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/js/app.502abd753903712de970.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/js/app.dadb7c021f8ca3dd7f95.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/js/manifest.3ad1d5771e9b13dbdad2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/js/vendor.72f4cfb13ca2a8354281.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/static/js/vendor.e468d4b8ba4ccb6b209e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/oauth2-redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui-bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui-bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger-ui.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/swagger.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/default_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="4d8feb9b-c757-4f8e-8758-d633f6374304" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +71,7 @@
           <entry key="html" value="14" />
           <entry key="js" value="2" />
           <entry key="json" value="1" />
-          <entry key="md" value="25" />
+          <entry key="md" value="26" />
           <entry key="sh" value="6" />
           <entry key="sql" value="4" />
           <entry key="task" value="45" />
@@ -298,7 +93,7 @@
           <entry key="HTML" value="14" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="23" />
+          <entry key="Markdown" value="24" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Scratch" value="4" />
           <entry key="YAML" value="5" />
@@ -345,15 +140,6 @@
               <folding>
                 <element signature="e#21#175#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -785,35 +571,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="8" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/task.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="639" column="18" selection-start-line="639" selection-start-column="9" selection-end-line="639" selection-end-column="18" />
-          <folding>
-            <element signature="e#21#175#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,6 +644,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2925">
           <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="8" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/task.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="639" column="18" selection-start-line="639" selection-start-column="9" selection-end-line="639" selection-end-column="18" />
+          <folding>
+            <element signature="e#21#175#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
